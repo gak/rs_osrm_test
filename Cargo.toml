@@ -1,0 +1,11 @@
+[package]
+name = "rs_osrm_test"
+version = "0.1.0"
+edition = "2018"
+
+[[bin]]
+name = "rs_osrm_test"
+path = "src/main.rs"
+
+[dependencies]
+rs_osrm = "1.0.11"
